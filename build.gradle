@@ -36,3 +36,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+jar {
+	manifest {
+		attributes 'ApiRestSinPaginacionApplication': 'com.utn.apiRestSinPaginacion' // Reemplaza 'tu.paquete.MainClass' con la clase principal de tu aplicación
+	}
+}
