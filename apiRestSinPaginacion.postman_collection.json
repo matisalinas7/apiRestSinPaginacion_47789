@@ -15,12 +15,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/personas",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/personas",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -36,12 +37,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/personas/2",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/personas/2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -67,12 +69,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/personas",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/personas",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -97,12 +100,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/personas/1",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/personas/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -132,12 +136,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/autores",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/autores",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -153,12 +158,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/autores/2",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/autores/2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -184,12 +190,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/autores",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/autores",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -214,12 +221,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/autores/1",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/autores/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -249,12 +257,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/localidades",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/localidades",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -270,12 +279,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/localidades/1",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/localidades/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -293,7 +303,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "// {\r\n//     \"denominacion\": \"Lujan de Cuyo\"\r\n// }\r\n//  {\r\n//      \"denominacion\": \"Godoy Cruz\"\r\n//  }\r\n\r\n ",
+							"raw": "// {\r\n//     \"denominacion\": \"Lujan de Cuyo\"\r\n// }\r\n {\r\n     \"denominacion\": \"Godoy Cruz\"\r\n }\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -301,12 +311,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/localidades",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/localidades",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -330,12 +341,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/localidades/2",
-							"protocol": "http",
+							"raw": "https://apirestsinpaginacion-salinas.onrender.com/api/v1/localidades/2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"apirestsinpaginacion-salinas",
+								"onrender",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
